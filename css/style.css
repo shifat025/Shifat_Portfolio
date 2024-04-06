@@ -25,6 +25,24 @@ Author E-mail: naimlasker@gmail.com
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+.dj-img{
+  width: 35px;
+}
+.drf{
+  width: 75px;
+}
+.oop{
+  width: 70px;
+}
+.postgre{
+  width: 55px;
+}
+.data_structure{
+  width: 65px;
+}
+.algorithm{
+  width: 65px;
+}
 body {
   line-height: 26px;
   font-size: 15px;
