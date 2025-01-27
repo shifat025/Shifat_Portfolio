@@ -6,14 +6,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Portfolio</title>
+	<title>Portfolio Details</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
 	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -39,7 +39,7 @@
 							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 							<!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li> -->
-							<li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
 							
 							<!-- <li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -63,10 +63,11 @@
         <div class="banner_inner d-flex align-items-center">
             <div class="container">
                 <div class="banner_content text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Project Details</h2>
                     <div class="page_link">
                         <a href="index.html">Home</a>
-                        <a href="portfolio.html">Portfolio</a>
+                        <a href="portfolio.html">Project</a>
+                        <a href="portfolio-details.html">Project Details</a>
                     </div>
                 </div>
             </div>
@@ -74,110 +75,55 @@
     </section>
     <!--================ End Banner Area =================-->
 
-	<!--================Start Portfolio Area =================-->
-	<section class="portfolio_area" id="portfolio">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title text-left">
-						<h2>quality work <br>
-							Recently done project </h2>
-					</div>
-				</div>
-			</div>
-			<div class="filters portfolio-filter">
-				<ul>
-					<li class="active" data-filter="*">all</li>
-					<li data-filter=".popular">popular</li>
-					<li data-filter=".latest"> latest</li>
-					<li data-filter=".following">following</li>
-					<li data-filter=".upcoming">upcoming</li>
-				</ul>
-			</div>
+	<!--================Start Portfolio Details Area =================-->
+	<section class="portfolio_details_area section_gap">
+        <div class="container">
+            <div class="portfolio_details_inner">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="left_img">
+                            <img class="img-fluid" src="img/portfolio//sellstream.png" alt="">
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-lg-5">
+                        <div class="portfolio_right_text mt-30">
+                            <h2 class="text-uppercase">Sellstream</h2>
+                            <a href="https://sell-stream.netlify.app/" target="_blank">Live link</a>
+                            <br>
+                            <a href="https://github.com/135meherab/SellStream-front-end">Client Side Code</a>
+                            <br>
+                            <a href="https://github.com/135meherab/SellStream">Server Side Code</a>
+                            
+                            <!-- <ul class="list">
+                                <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i></li>
+                                <li><span>Client</span>: colorlib</li>
+                                <li><span>Website</span>: colorlib.com</li>
+                                <li><span>Completed</span>: 17 Aug 2018</li>
+                            </ul> -->
+                        </div>
+                    </div>
+                </div>
+                <h3>Tech Stacks: Django Rest Framwork(DRF),React,Redux,Tailwind,PostgreSQLS</h3>
+                            <p>
 
-			
-	
-			<div class="filters-content">
-				<div class="row portfolio-grid justify-content-center">
-					<div class="col-lg-4 col-md-6 all latest popular">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/Quiz.png" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/Quiz.png" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a class="text-primary hover-underline" href="portfolio-details_3.html">Quiz Application</a></h4>
-								<p>Django Rest Framwork(DRF), Tailwind, React, sqlite3</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all latest">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/sellstream.png" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/sellstream.png" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a class="text-primary hover-underline" href="portfolio-details-4.html">Sellstream</a></h4>
-								<p>Django Rest Framwork(DRF),React,Redux,Tailwind,PostgreSQL</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-lg-4 col-md-6 all latest">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio//pet-adopt.png" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/pet-adopt.png" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a class="text-primary" href="portfolio-details.html">Pet Adoption Bd</a></h4>
-								<p>Tech Stacks: Django(MVT), Bootstrap5, HTML , CSS</p>
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/navana.png" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/navana.png" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a class="text-primary" href="protfolio_details_2.html">Nevana Hospital</a></h4>
-								<p>Tech Stacks: Django(DRF), Bootstrap5, HTML , CSS</p>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-    <!--================End Portfolio Area =================-->
-  
+                                ❖ Contributed as team co-leader and full-stack developer to this system for managing product inventories, costs, and
+                                employee data.Create categories for products, add products to branches, and order products from branches.
+                                <br>
+                                ❖ Worked on the frontend using React, implementing features and fixing bugs to ensure a seamless user experience.
+                                <br>
+                                ❖ Developed multi-role access (user, branch user, admin) and shop/branch management with real-time data updates.
+                                <br>
+                                ❖ Integrated dashboards with data visualizations and role-based operations for shop and branches.
+                               
+                            </p>
+            </div>
+        </div>
+    </section>
+    <!--================End Portfolio Details Area =================-->
+    
         
-        <!--================Footer Area =================-->
+    <!--================Footer Area =================-->
 	<footer class="footer_area">
         <div class="container">
             <div class="row justify-content-center">
@@ -189,7 +135,7 @@
                             </a>
                             <h4>Follow Me</h4>
                         </div>
-						<div class="footer_social">
+                        <div class="footer_social">
 							<a href="https://www.facebook.com/ak.shifat.902" target="_blank"><i class="fa-brands fa-facebook" style="color: #0473c8;"></i></i></a>
 							<a href="https://www.linkedin.com/in/md-mim-shifat/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #027fde;"></i></a>
 							<!-- <a href="#"><i class="fa-brands fa-discord"></i></a> -->
@@ -201,7 +147,7 @@
             <div class="row footer_bottom justify-content-center">
                 <p class="col-lg-8 col-sm-12 footer-text">
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved  </a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
         </div>
